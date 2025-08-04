@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Sky blue */
+}
+
+.scene {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ground {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #4CAF50; /* Green */
+}
+
+.runner {
+    position: absolute;
+    bottom: 100px;
+    left: 20%;
+    width: 80px;
+    height: 180px;
+}
+
+.head {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFD700; /* Gold */
+    border-radius: 50%;
+}
+
+.body {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    width: 10px;
+    height: 50px;
+    background-color: #4169E1; /* Royal blue */
+}
+
+.arm {
+    position: absolute;
+    width: 8px;
+    height: 40px;
+    background-color: #4169E1;
+}
+
+.arm.left {
+    top: 25px;
+    left: 25px;
+    transform-origin: top center;
+}
+
+.arm.right {
+    top: 25px;
+    left: 47px;
+    transform-origin: top center;
+}
+
+.leg {
+    position: absolute;
+    width: 10px;
+    height: 60px;
+    background-color: #000080; /* Navy */
+    transform-origin: top center;
+}
+
+.leg.left {
+    top: 70px;
+    left: 35px;
+}
+
+.leg.right {
+    top: 70px;
+    left: 35px;
+}
+
+.cloud {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+}
